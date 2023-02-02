@@ -1,8 +1,8 @@
-let number_buttons, winning_number;
 const createButton = document.getElementById("createButton");
 const container = document.getElementById("container");
 let buttonCreate = false;
 
+let number_buttons, winning_number;
 createButton.addEventListener("click", function() {
   number_buttons = document.getElementById("myInput").value;
   if(!buttonCreate && number_buttons >= 2) {
