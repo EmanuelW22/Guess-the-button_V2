@@ -1,0 +1,32 @@
+form {
+  text-align: center;
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5em;
+}
+#myInput, #rst{
+  font-size: 1em;
+  width: 100px;
+}
+
+#createButton {
+  font-size: 32px;
+  color: blue;
+  margin-left: 45%;
+  
+}
+
+#container{
+  display: flex;
+  flex-direction :column;
+  width: 150px;
+  margin: auto;
+  padding: 25px;
+ 
+}
+#text{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: black;
+}
